@@ -16,7 +16,7 @@ const App = () => {
     return <div>Loading...</div>;
   }
 
-  if (result.error) {
+  if (result.isError) {
     return <div>An error occurred {result.error.message}</div>;
   }
 
